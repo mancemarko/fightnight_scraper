@@ -1,0 +1,17 @@
+{
+  "_comment": "Exact YouTube channel names of promoters/broadcasters/sanctioning bodies whose free uploads we treat as official. A channel only counts if it also shows YouTube's verified badge. Add names you trust.",
+  "channels": [
+    "DAZN Boxing",
+    "Top Rank Boxing",
+    "Matchroom Boxing",
+    "Matchroom",
+    "BOXXER",
+    "Sky Sports Boxing",
+    "Queensberry Promotions",
+    "Golden Boy",
+    "Premier Boxing Champions",
+    "TNT Sports Boxing",
+    "Top Tier Boxing",
+    "Probellum"
+  ]
+}

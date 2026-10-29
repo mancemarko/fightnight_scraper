@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fightnight: free boxing streams</title>
+  <meta name="description" content="Search for free, official boxing streams, replays and highlights.">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="brand"><span aria-hidden="true">🥊</span> Fightnight</h1>
+      <p class="tagline">Free, official boxing streams, replays and highlights.</p>
+      <div class="tabs" role="tablist" aria-label="Sections">
+        <button class="tab" role="tab" id="tab-search" aria-controls="panel-search" aria-selected="true">Searcher</button>
+        <button class="tab" role="tab" id="tab-sources" aria-controls="panel-sources" aria-selected="false" tabindex="-1">Free sources</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="panel-search" role="tabpanel" aria-labelledby="tab-search">
+      <form id="search-form" class="search" role="search" autocomplete="off">
+        <label class="sr-only" for="q">Search for a fight</label>
+        <input id="q" name="q" type="search" maxlength="120" placeholder="Fighter vs fighter, e.g. Fury vs Usyk" required>
+        <button type="submit">Search</button>
+      </form>
+
+      <div class="suggested">
+        <span class="suggested-label">Suggested</span>
+        <div id="suggestions" class="chips"></div>
+      </div>
+
+      <div id="status" role="status" aria-live="polite"></div>
+      <div id="results"></div>
+    </section>
+
+    <section id="panel-sources" role="tabpanel" aria-labelledby="tab-sources" hidden>
+      <h2>What gets searched</h2>
+      <p>Everything here is free to watch and free to run: no paid APIs, no accounts, no ads. Right now we search
+        <strong>YouTube</strong> and sort what we find by how trustworthy the uploader is.</p>
+      <h3>Official</h3>
+      <p>A channel is marked official only when its name is on this list <em>and</em> YouTube shows its verified badge:</p>
+      <ul id="channel-list" class="plain"></ul>
+      <h3>Unverified</h3>
+      <p>Anyone can upload a fight. Videos from other channels are tucked away and may not be legitimate uploads.</p>
+      <h3>Never included</h3>
+      <ul>
+        <li>Subscription or pay-per-view services (such as DAZN) are shown on the fight card for context, but not listed as free options.</li>
+        <li>Pirate restreaming sites. We link to videos on their original platform and never host or restream anything.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="wrap site-footer">
+    <p>Links point to videos on their original platforms. Availability depends on your region and on what rights-holders choose to publish.</p>
+  </footer>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "_comment": "Curated fight cards. 'broadcast' entries state cost honestly; only free options are searched for. 'suggested' events appear as chips on the Searcher tab.",
+  "events": [
+    {
+      "id": "kakande-muxanga-2026-10-25",
+      "suggested": true,
+      "title": "Top Tier Boxing: The Grand Finale",
+      "date": "2026-10-25",
+      "venue": "York Hall, London",
+      "bout": "Vacant IBF Continental Africa junior middleweight title",
+      "fighters": [
+        {"name": "Muzamiru Kakande", "record": "11-1-1, 7 KOs"},
+        {"name": "Tiago Muxanga", "record": "4-0, 2 KOs"}
+      ],
+      "records_note": "Records as listed before the fight.",
+      "broadcast": [
+        {"name": "DAZN", "cost": "Subscription", "note": "Listed as the global broadcaster. Not counted as free."}
+      ],
+      "source": {
+        "label": "Boxing Showtimes listing",
+        "url": "https://boxingshowtimes.com/boxing-events/muxanga-vs-kakande"
+      }
+    }
+  ]
+}
